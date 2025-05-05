@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="imchistorico_pessoa_FK" directorySegmentName="seg_0" id="C615594C-CB79-134F-EA8A-F5127B465254">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-04-28 23:01:20 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="E695AA41-097E-568A-F55A-EC56BE802BC7" value="true"/>
+</engineerTo>
+<sourcePk>EC897357-28AA-BD7E-CC74-11F2201AD69B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DB2F36F5-A40B-4924-BA07-B83B26141DA3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ED782090-46E8-FAD9-2648-E6C073008BFE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

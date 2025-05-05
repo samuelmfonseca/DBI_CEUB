@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3C73B48F-4FC5-1CF4-16B0-1860D54048E7" name="log">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-04-29 00:38:43 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf" id="205C4FFC-2759-43E8-67C4-D9AFDC24B038">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-04-29 00:39:20 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="operação" id="496FB078-A577-5535-DCE1-66BB566AFBAE">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-04-29 00:39:20 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datelog" id="E5777211-C25B-4855-104E-E03DB74C93D7">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-04-29 00:39:20 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

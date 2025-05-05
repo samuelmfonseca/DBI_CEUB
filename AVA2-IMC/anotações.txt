@@ -1,0 +1,26 @@
+BD_AVALIAÇÃO 2
+IMC
+
+PESQUISA
+
+   CRUD, CAMEL CASE
+
+ENTIDADES
+
+PESSOA
+   NOME_PESSOA  tipo = "varchar" "(60) caracteres" "obrigatório"
+   PESO_PESSOA tipo = "" "" ""
+   ALTURA_PESSOA tipo = "" "" ""
+
+IMC_HISTORICO
+  DATA_MEDIÇÃO = "07/04/25 20:16 tipo = "datatime" "obrigatório"
+  PESO_MEDIÇÃO = "105kg" tipo = "float" "(3) caracteres "obrigatório"
+  ALTURA_MEDIÇÃO = "1.83m" tipo = "float" "(3) caracteres "obrigatório"
+  IMC_CALCULADO = "28,60" tipo = " "" "" ""
+  ANALISE_IMC== "SOBREPESO" tipo = " "" "" ""
+
+tipos
+texto = "char" "varchar" "nvarchar"
+data = "datetime"
+numero flutuante = "float" "double"
+

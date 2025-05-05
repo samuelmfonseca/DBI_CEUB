@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40D1831C-EE06-D4FA-BB8D-4B87AAAA7379" name="imchistorico">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-04-28 23:45:50 UTC</createdTime>
+<generatorID>ED782090-46E8-FAD9-2648-E6C073008BFE</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="datamedição" id="A23419ED-10F3-0A5F-EE63-9E8A1A377080">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-04-28 23:45:50 UTC</createdTime>
+<generatorID>FF78D607-B77A-46DB-D955-D5BB49515A18</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfpessoa" id="C5DAF19C-A4AA-68F1-8656-618B9D569236">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-04-28 23:45:50 UTC</createdTime>
+<generatorID>B7C8905E-098E-0574-CB71-8E5018B83163</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pesomedição" id="64F689FC-CCD6-89B8-A6EF-B9897811CA3F">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-04-28 23:45:50 UTC</createdTime>
+<generatorID>3F30DBAB-9010-1992-9638-4BD53D29F167</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alturamedição" id="403379BD-CF8F-CA10-5D97-268825FF493D">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-04-28 23:45:50 UTC</createdTime>
+<generatorID>5FB30E41-1A6D-2C9A-F8EE-DE7EC4D83131</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imccalculado" id="F4965EE5-339D-580E-13BE-FD15AE3A6005">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-04-28 23:45:50 UTC</createdTime>
+<generatorID>B00337D3-442D-D08B-A34E-69CB475807CC</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="analiseimc" id="3ABAD22F-8303-54BD-B86C-57E160CACAB0">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-04-28 23:45:50 UTC</createdTime>
+<generatorID>6BF4E36C-1734-7140-2890-D18DBBC9497E</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18 CHAR</dataTypeSize>
+<ownDataTypeParameters>18 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pessoa_cpfpessoa" id="38ED3602-3446-0E6D-57F5-F11427BFB9A5">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-04-28 23:45:50 UTC</createdTime>
+<generatorID>1A5262D8-0639-DBB3-FC32-B244850D1752</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="365C27C7-D921-1EF6-5E28-C9C9090F6652" referredColumn="F1A083BC-66A0-9510-E72E-8363072131E8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CC272F8-CDCC-3556-FB83-9BAC535CAA20" name="imchistorico_PK">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-04-28 23:45:51 UTC</createdTime>
+<generatorID>89193840-98B1-8368-3CF1-E8F3C23BD4DA</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A23419ED-10F3-0A5F-EE63-9E8A1A377080"/>
+<colUsage columnID="C5DAF19C-A4AA-68F1-8656-618B9D569236"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBFF8078-E696-6930-1575-F046DA55646E" name="imchistorico_pessoa_FK">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-04-28 23:45:51 UTC</createdTime>
+<generatorID>C615594C-CB79-134F-EA8A-F5127B465254</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38ED3602-3446-0E6D-57F5-F11427BFB9A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
