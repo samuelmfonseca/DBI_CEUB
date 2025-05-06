@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB758E4B-21A0-4020-4F09-B39DAE4EE697" name="pedidos">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-05 23:08:21 UTC</createdTime>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<engineerTo>
+<item key="F736974C-8AA6-F9AE-847C-1C96D42275A2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pedidoid" id="A92D2774-AB36-8D39-A220-428B122BFA1B">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-05 23:15:29 UTC</createdTime>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<engineerTo>
+<item key="F736974C-8AA6-F9AE-847C-1C96D42275A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="BB976467-5510-54B3-A976-771745A68BCC">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-05 23:17:44 UTC</createdTime>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<engineerTo>
+<item key="F736974C-8AA6-F9AE-847C-1C96D42275A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="B25DCA80-346B-AD7E-4D55-0D1AE2F9E51C">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:20:21 UTC</createdTime>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<engineerTo>
+<item key="F736974C-8AA6-F9AE-847C-1C96D42275A2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datahora" id="7697085F-0708-F97C-096D-83E98047D14F">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:20:43 UTC</createdTime>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<engineerTo>
+<item key="F736974C-8AA6-F9AE-847C-1C96D42275A2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valortotal" id="F687C518-E305-9834-53F3-AA6C72A2321C">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-05 23:19:28 UTC</createdTime>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<engineerTo>
+<item key="F736974C-8AA6-F9AE-847C-1C96D42275A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfcliente1" id="547C700B-5A7B-8E58-FB30-78962CCE2F77">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:26:50 UTC</createdTime>
+<generatorID>0CBFD9BA-6598-7DB1-BC15-55C008CF2423</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<engineerTo>
+<item key="F736974C-8AA6-F9AE-847C-1C96D42275A2" value="true"/>
+</engineerTo>
+<referedAttribute>91867C0D-B55E-208B-DFBF-C7877C15C7F5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula1" id="2872EEA6-0C9B-2E90-5071-92F4F37E6CD0">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:26:50 UTC</createdTime>
+<generatorID>0CBFD9BA-6598-7DB1-BC15-55C008CF2423</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<engineerTo>
+<item key="F736974C-8AA6-F9AE-847C-1C96D42275A2" value="true"/>
+</engineerTo>
+<referedAttribute>BCAC3C4B-7F2C-2057-9D91-73F245145B96</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pedidoid1" id="C9C19A49-E7E2-0B76-2DB9-141794BFB7F6">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:27:45 UTC</createdTime>
+<generatorID>6520BFFF-4763-08B6-F110-0F32EEB7222C</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<engineerTo>
+<item key="F736974C-8AA6-F9AE-847C-1C96D42275A2" value="true"/>
+</engineerTo>
+<referedAttribute>A92D2774-AB36-8D39-A220-428B122BFA1B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="28535750-0293-8359-8318-F5BF5A28786D" name="pedidos PK">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-05 23:16:27 UTC</createdTime>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F736974C-8AA6-F9AE-847C-1C96D42275A2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A92D2774-AB36-8D39-A220-428B122BFA1B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

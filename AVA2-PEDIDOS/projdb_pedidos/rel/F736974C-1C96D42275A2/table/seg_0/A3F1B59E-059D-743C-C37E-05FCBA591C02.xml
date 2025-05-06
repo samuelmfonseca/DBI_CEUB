@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3F1B59E-059D-743C-C37E-05FCBA591C02" name="produtos">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>07F74872-B8CC-C49D-C8FC-F64D22FE28CE</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="produtoid" id="2E51BB3E-EA31-64E2-B757-7F36F516A70B">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>3C156EBC-43A7-7086-83B4-C48799489CE9</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeproduto" id="7CF1A3C0-B7DB-C2C4-7517-CA30FDC3C1D8">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>6467370C-D333-BBA6-D3A6-07286DDF3D4D</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricaodopedido" id="7F4547E8-E33D-C781-603F-55D9D66BB60A">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>D5444823-77CD-6BC9-D4D7-64FBCEB0917A</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precounitario" id="CBA7B77F-BF65-36BF-F7FC-A242B328734B">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>49A269EF-8423-0BE5-E621-C7C3CF1349C9</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A66501B-9DB0-88E2-1E2E-F5488D9E8068" name="produtos_PK">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>C4CD9901-8F3D-581D-5F53-242170CBDB35</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E51BB3E-EA31-64E2-B757-7F36F516A70B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93A3A4BE-B79D-89B0-D035-A6E0B276E980" name="informacoescliente">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>1EC78B4A-3381-7A2D-E112-B43FCA456241</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cliente_cpfcliente1" id="CC7FF8D5-7049-B637-7124-64E0A75D0603">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>F933E6A4-DBDD-4BE6-2EC1-A89C258BD9C5</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAC32B85-433B-0AC4-65B5-59E643281927" referredColumn="B9906877-64AF-5843-E5E2-3F48A9478BEB"/>
+</associations>
+</Column>
+<Column name="telefone" id="0BA14F46-9BFE-897F-7FF1-AAA2C6FE9E98">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>C5AEDF48-E2F2-3A4B-4901-AE8BD607B128</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="22E7D721-CBA3-4706-6640-FF06D6B4D86A">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>8EE2D276-5630-3FE3-4ADC-200056F6275A</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cliente_cpfcliente" id="B3A36175-D9AA-2C30-E4B1-37262771DAC7">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:38:26 UTC</createdTime>
+<generatorID>D905F65E-8C58-22BC-1331-AA9E94B1A34B</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cliente_matricula" id="ED385657-7D0A-F6B9-CE4E-2952E571AF85">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>3B7C0283-BED0-82A6-6604-C2DC0C230910</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45584AF2-BC19-DED1-128C-35FB3EB2C416" name="informacoescliente_PK">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>B3E8C04A-AE71-3D23-5071-621ADBC89764</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC7FF8D5-7049-B637-7124-64E0A75D0603"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84B01154-EE63-E1D3-55E9-76C858B3A4D9" name="informacoescliente_cliente_FK">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>12518F86-4948-45F9-39D8-577EC599C9C3</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC7FF8D5-7049-B637-7124-64E0A75D0603"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

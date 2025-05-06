@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="132E5CC8-913B-0C1E-6286-E9B144BB5C3F" name="itenspedido">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>8D4AC2FF-50F7-1526-AA2C-9A1C5A17AD05</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pedidoid" id="1E22C68B-C8B9-16B4-4E1A-C99232FD7EF9">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>D3C18016-F08A-CD4D-0884-74C593ACB0B6</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="produtoid" id="DE3D4CB4-4AFD-F874-4C1A-734AC5792901">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>379E22C3-0653-B28C-564D-C29E0588B699</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EE430AB-3660-446B-3BBC-DA32B231E5AE" referredColumn="2E51BB3E-EA31-64E2-B757-7F36F516A70B"/>
+</associations>
+</Column>
+<Column name="produtos_produtoid" id="2D263940-41CA-2A23-518C-03B1067ECC3A">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:39:05 UTC</createdTime>
+<generatorID>F0028069-B12C-1509-0D1D-142050EF8F6A</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade" id="DA6E4C4A-1276-6780-FC66-36CB6D54F702">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>88B77634-33A6-4153-3F95-40D70B4CDA36</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pedidoid1" id="4D02CF1C-8DC5-705B-3CC7-6BDD809B2D73">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>F8326217-160D-7686-92E0-C060D657A04F</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="produtoid1" id="E6439047-3B59-A5A3-AC2C-7B3BFBB026CF">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:42:13 UTC</createdTime>
+<generatorID>26C2B723-36F5-1E44-C3D8-58FEB465827B</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D0E6401-BCB5-034E-9979-79ED7B172214" name="itenspedido_PK">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>2FF28373-D3CF-2C43-17CC-EDE9778D5A37</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E22C68B-C8B9-16B4-4E1A-C99232FD7EF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44089C36-463C-F3A9-3D6E-6A7A6DA73878" name="itenspedido_produtos_FK">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>199F0FD7-1520-2F35-3A66-7DCFC696476B</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE3D4CB4-4AFD-F874-4C1A-734AC5792901"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2CF39243-705E-9C57-B428-06E2BC5C97CA" name="cliente">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>D138883C-005A-A7BC-67A7-3A91428FD75D</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vendedor_matricula" id="E9F6E728-0ED9-5128-13F0-CF2061E33DFB">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>BCAC3C4B-7F2C-2057-9D91-73F245145B96</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87714074-0DDD-029E-6EBD-B9120AF42001" referredColumn="4E00BECA-D5DF-28BC-2029-844E16D9981F"/>
+</associations>
+</Column>
+<Column name="cpfcliente" id="B9906877-64AF-5843-E5E2-3F48A9478BEB">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>91867C0D-B55E-208B-DFBF-C7877C15C7F5</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomecliente" id="03642F74-2FF4-B4E0-D259-1E0F479FFBEF">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>D7EC5D8A-4221-92C5-25FE-A319E8ACB856</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereçodocliente" id="BD815723-C86A-9738-818B-BC001346173E">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>2475E397-7841-5DD3-552C-F1852AD801EE</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="115A5133-AADA-7406-C74E-2FB24ECFC362">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>0BCEB5E4-0203-833B-8632-F8D1889868F1</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfcliente2" id="5DA9F9D0-2D4E-DCA8-D638-A9E1569F080A">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>F43440D6-6F54-F698-36FF-E462E7B473DC</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula3" id="C0E17BAE-C1D0-DDBD-86BB-3F6F592868D4">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>9684C9F7-9BCE-2FE2-E10D-12AAD4327C79</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula31" id="D53DA1AD-B1E9-1DCD-04E6-0DC2098043CC">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:32:44 UTC</createdTime>
+<generatorID>9684C9F7-9BCE-2FE2-E10D-12AAD4327C79</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pedidos_pedidoid" id="D94D0790-11AE-5C9D-6048-121E0146DF2C">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:32:44 UTC</createdTime>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80E916BB-DD9E-27EA-BE4B-0BE65EECE4CF" referredColumn="34015EC8-1529-3A37-9718-DD7AF68FA5A8"/>
+</associations>
+</Column>
+<Column name="matricula2" id="6BC26A08-2CA7-2E8E-A88F-90F3B0B3E3DE">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:42:13 UTC</createdTime>
+<generatorID>27B55081-9725-7B54-19BE-C8546088F35D</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5ABE191F-A017-070F-6A2E-329ADA9F44DF" name="cliente_PK">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>DB981397-70F5-887D-359E-000A1D36FB2D</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9906877-64AF-5843-E5E2-3F48A9478BEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB148276-C5E9-FAA7-5619-2C3E762A6391" name="cliente_vendedor_FK">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>9587AC32-1295-FDDC-6D20-E3167ED1A29E</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9F6E728-0ED9-5128-13F0-CF2061E33DFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AC0368A-9107-1FE0-F5EF-65554D710544" name="cliente_pedidos_FK">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:28:09 UTC</createdTime>
+<generatorID>0CBFD9BA-6598-7DB1-BC15-55C008CF2423</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D94D0790-11AE-5C9D-6048-121E0146DF2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

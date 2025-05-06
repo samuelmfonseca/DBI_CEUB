@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1EC78B4A-3381-7A2D-E112-B43FCA456241" name="informacoescliente">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-06 00:34:47 UTC</createdTime>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<engineerTo>
+<item key="F736974C-8AA6-F9AE-847C-1C96D42275A2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfcliente" id="F933E6A4-DBDD-4BE6-2EC1-A89C258BD9C5">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-06 00:35:12 UTC</createdTime>
+<generatorID>12518F86-4948-45F9-39D8-577EC599C9C3</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<engineerTo>
+<item key="F736974C-8AA6-F9AE-847C-1C96D42275A2" value="true"/>
+</engineerTo>
+<referedAttribute>91867C0D-B55E-208B-DFBF-C7877C15C7F5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="C5AEDF48-E2F2-3A4B-4901-AE8BD607B128">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-06 00:35:35 UTC</createdTime>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<engineerTo>
+<item key="F736974C-8AA6-F9AE-847C-1C96D42275A2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="8EE2D276-5630-3FE3-4ADC-200056F6275A">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-06 00:35:56 UTC</createdTime>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<engineerTo>
+<item key="F736974C-8AA6-F9AE-847C-1C96D42275A2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente cpfcliente" id="D905F65E-8C58-22BC-1331-AA9E94B1A34B">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-06 00:39:56 UTC</createdTime>
+<generatorID>12518F86-4948-45F9-39D8-577EC599C9C3</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<engineerTo>
+<item key="F736974C-8AA6-F9AE-847C-1C96D42275A2" value="true"/>
+</engineerTo>
+<referedAttribute>91867C0D-B55E-208B-DFBF-C7877C15C7F5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cliente matricula" id="E3D6DC27-563F-B4E0-75B0-6944EF7DCBCB">
+<createdBy>MSI</createdBy>
+<createdTime>2025-05-06 01:41:12 UTC</createdTime>
+<generatorID>ED385657-7D0A-F6B9-CE4E-2952E571AF85</generatorID>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<engineerTo>
+<item key="F736974C-8AA6-F9AE-847C-1C96D42275A2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3E8C04A-AE71-3D23-5071-621ADBC89764" name="informacoescliente PK">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-06 00:35:22 UTC</createdTime>
+<ownerDesignName>projdb_pedidos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F736974C-8AA6-F9AE-847C-1C96D42275A2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F933E6A4-DBDD-4BE6-2EC1-A89C258BD9C5</attributeRef>
+<attributeRef>D905F65E-8C58-22BC-1331-AA9E94B1A34B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
