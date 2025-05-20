@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7C42ADE-1302-4C17-14E4-21FE17F593BE" name="mensalidades">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-19 23:19:23 UTC</createdTime>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpftitulares" id="3E4E3BDA-FE5E-8233-F0D8-8FFB77B796F7">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-19 23:31:25 UTC</createdTime>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valormensalidade" id="5D885A57-E847-B782-6D63-76DFC6D04D49">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-19 23:31:48 UTC</createdTime>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vencimentomensalidade" id="7AE035E5-EB3E-B11A-6DC7-A25095776280">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-19 23:32:17 UTC</createdTime>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="referencia" id="F4E05CA2-46AC-5723-F99C-83392D7780D6">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-19 23:34:40 UTC</createdTime>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datapagamento" id="B74D48CF-929A-926A-F6D2-2D1FE48A165D">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-19 23:34:59 UTC</createdTime>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpftitulares1" id="E80E1222-714A-0C4C-1A45-BF2BEC69B8AA">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-20 00:47:39 UTC</createdTime>
+<generatorID>F1E7151A-9E1B-8196-C3E3-C16002CF76B4</generatorID>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<referedAttribute>445F9B31-FF8C-42DA-267C-EA3F602F1BA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D77E724-5F5D-70E1-3659-4EE98C642E4A" name="mensalidades PK">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-20 00:47:21 UTC</createdTime>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3E4E3BDA-FE5E-8233-F0D8-8FFB77B796F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

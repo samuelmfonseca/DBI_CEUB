@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="77622E15-86AE-6477-8E5C-3DAD83493B1B" name="Titulares">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-19 23:15:55 UTC</createdTime>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpftitulares" id="445F9B31-FF8C-42DA-267C-EA3F602F1BA6">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-19 23:22:55 UTC</createdTime>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nometitular" id="D2E28E51-0EAD-5DDA-BA27-1EF1EB5E8013">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-19 23:23:34 UTC</createdTime>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="graudeparentesco" id="ACB54685-65EC-DA93-347F-1A0CBB8BF8A1">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-19 23:25:08 UTC</createdTime>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nascimentotitular" id="D2854F93-8956-8CAF-ED3B-0102E8B06B2B">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-19 23:28:50 UTC</createdTime>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpftitulares1" id="80C14B27-73AA-FD09-CB65-8E2F7DB13BAF">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-20 00:46:17 UTC</createdTime>
+<generatorID>0860A875-62B9-F9D3-3889-891D1386F111</generatorID>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<referedAttribute>759FC293-83E6-F2B4-1DCA-49A68FD9FDC3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefonestitulares" id="3D56073B-FB58-7B74-0BAF-DA3C959D8917">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-20 00:46:17 UTC</createdTime>
+<generatorID>0860A875-62B9-F9D3-3889-891D1386F111</generatorID>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<referedAttribute>36C5D919-235B-2490-E64B-C56F31EAFBD2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpftitulares2" id="27C86DB2-4B06-A5AA-9312-F7B3B3D41819">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-20 00:47:14 UTC</createdTime>
+<generatorID>6B526D6D-B4BB-1A28-46FB-A23893370613</generatorID>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<referedAttribute>445F9B31-FF8C-42DA-267C-EA3F602F1BA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpftitulares3" id="46319AF8-E0A0-174C-9D37-49AD0CA3467E">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-20 00:47:55 UTC</createdTime>
+<generatorID>F1E7151A-9E1B-8196-C3E3-C16002CF76B4</generatorID>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<referedAttribute>445F9B31-FF8C-42DA-267C-EA3F602F1BA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9948F0BA-62DF-1B8B-C6B5-1F6ED3A1D45D" name="Titulares PK">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-19 23:23:16 UTC</createdTime>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>445F9B31-FF8C-42DA-267C-EA3F602F1BA6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

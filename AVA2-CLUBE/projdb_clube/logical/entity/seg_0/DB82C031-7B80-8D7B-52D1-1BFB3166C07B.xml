@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB82C031-7B80-8D7B-52D1-1BFB3166C07B" name="telefonesdepentes">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-19 23:20:59 UTC</createdTime>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfdependentes" id="B41C6A25-9970-64E4-9F49-EB97E4225417">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-19 23:46:56 UTC</createdTime>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefonesdependentes" id="AB3DB553-CB9B-07D7-CDE2-BA4C2FB7A129">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-19 23:47:19 UTC</createdTime>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipodetelefonedependentes" id="1B9A0D3E-4E1C-3CE5-F76A-5C64596A5A3A">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-19 23:47:43 UTC</createdTime>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfdependentes1" id="F8F45785-21E8-3FE8-95DD-30C7177B355B">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-20 00:46:27 UTC</createdTime>
+<generatorID>EDCD3B43-C523-A349-CEE6-F91084842DA9</generatorID>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<referedAttribute>7BD982DE-DE0C-B99F-76A4-EB219BA27072</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpftitulares" id="ADED5D0A-7C66-8464-0785-A0A43A33092D">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-20 00:46:27 UTC</createdTime>
+<generatorID>EDCD3B43-C523-A349-CEE6-F91084842DA9</generatorID>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<referedAttribute>9B77542B-8F59-89AA-C26C-3D90A742571E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="52A07F77-8732-D8E6-4A29-4A12B8F02BA1" name="telefonesdepentes PK">
+<createdBy>samuel.fonseca</createdBy>
+<createdTime>2025-05-19 23:47:18 UTC</createdTime>
+<ownerDesignName>projdb_clube</ownerDesignName>
+<engineerTo>
+<item key="61CE8590-3A9C-8236-5086-8CA83A855DC1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B41C6A25-9970-64E4-9F49-EB97E4225417</attributeRef>
+<attributeRef>AB3DB553-CB9B-07D7-CDE2-BA4C2FB7A129</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
